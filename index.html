@@ -6,32 +6,54 @@
     <title>Student Directory</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+            background-color: #121212;
+            color: #ffffff;
         }
         .container {
             max-width: 800px;
             margin: 50px auto;
             padding: 20px;
-            background: white;
+            background: #1e1e1e;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+        }
+        .search-bar {
+            margin-bottom: 20px;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #333;
             border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: #1e1e1e;
+            color: #ffffff;
+            outline: none;
         }
         .student-card {
-            border: 1px solid #ddd;
-            padding: 15px;
+            border: 1px solid #333;
+            padding: 20px;
             margin-bottom: 15px;
-            border-radius: 5px;
-            background: #f9f9f9;
+            border-radius: 10px;
+            background: #2c2c2c;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .student-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.7);
         }
         .student-card h2 {
             margin: 0 0 10px;
         }
+        .student-card p {
+            margin: 0 0 10px;
+            color: #cccccc;
+        }
         .student-card a {
-            color: #1a73e8;
+            color: #1e90ff;
             text-decoration: none;
         }
         .student-card a:hover {
@@ -42,29 +64,51 @@
 <body>
     <div class="container">
         <h1>Student Directory</h1>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search for a student..." oninput="filterStudents()">
+        </div>
         <div id="students"></div>
     </div>
 
     <script>
+        let studentsData = [];
+
         // Fetch student data from external JSON file
-        fetch('students.json')
+        fetch('https://students-karunya.vercel.app/students.json')
             .then(response => response.json())
             .then(students => {
-                const studentsContainer = document.getElementById('students');
-                students.forEach(student => {
-                    const studentCard = document.createElement('div');
-                    studentCard.className = 'student-card';
-
-                    studentCard.innerHTML = `
-                        <h2>${student.name}</h2>
-                        <p>${student.bio}</p>
-                        <a href="${student.github}" target="_blank">GitHub Profile</a>
-                    `;
-
-                    studentsContainer.appendChild(studentCard);
-                });
+                studentsData = students;
+                displayStudents(students);
             })
             .catch(error => console.error('Error loading student data:', error));
+
+        // Display students in the container
+        function displayStudents(students) {
+            const studentsContainer = document.getElementById('students');
+            studentsContainer.innerHTML = '';
+            students.forEach(student => {
+                const studentCard = document.createElement('div');
+                studentCard.className = 'student-card';
+
+                studentCard.innerHTML = `
+                    <h2>${student.name}</h2>
+                    <p>${student.bio}</p>
+                    <a href="${student.github}" target="_blank">GitHub Profile</a>
+                `;
+
+                studentsContainer.appendChild(studentCard);
+            });
+        }
+
+        // Filter students based on search input
+        function filterStudents() {
+            const query = document.getElementById('search').value.toLowerCase();
+            const filteredStudents = studentsData.filter(student =>
+                student.name.toLowerCase().includes(query) ||
+                student.bio.toLowerCase().includes(query)
+            );
+            displayStudents(filteredStudents);
+        }
     </script>
 </body>
 </html>
