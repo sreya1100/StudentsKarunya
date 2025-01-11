@@ -1,9 +1,40 @@
-[
+ [
     {
         "name": "Reuben Reny",
         "bio": "u code i automate",
         "github": "https://github.com/ReubenReny03"
+    },
+    {
+        "name": "Sandeep M K",
+        "bio": "B.tech CSE",
+        "github": "https://github.com/sandeepmk2006"
+    },
+    {
+        "name": "Jerbin",
+        "bio": "Happiness is not by chance But by choice",
+        "github": "https://github.com/Jerbin-jerbi"
+    },
+    {
+        "name": "Manendra Jha",
+        "bio": "not available",
+        "github": "https://github.com/URK24CS1053"
+    },
+    {
+        "name": "Dhamodharan",
+        "bio": "u code i automate",
+        "github": "https://github.com/Dhamodharan-crlt"
     }
+    {
+        "name": "Mohit Bijoria",
+        "bio": "beginner",
+        "github": "https://github.com/URK24CS1080"
+    }
+{
+        "name": "Goldy SS",
+        "bio": "Turning Ideas Into Coding",
+        "github": "https://github.com/Goldyss20"
+    }
+
 ]
 [
     {
@@ -12,4 +43,23 @@
         "github": "https://github.com/madhuvarshiniurk24cs1244"
     }
 ]
-
+        "name": "shanthini sahadevan",
+        "bio": "code create innovate",
+        "github": "https://github.com/shanthinisahadevanURK24CS1262"
+    }
+    {
+        "name": "Avani Mitra",
+        "bio": "Hi, how are you?",
+        "github": "https://github.com/avani-29-kits"
+    }
+    {
+        "name": "Sony Jose J",
+        "bio": "Hi, how are you all?",
+        "github": "https://github.com/sony-11-kits"
+    }
+    {
+        "name": "Venisha Edyth F",
+        "bio": "HI, how are you all?",
+        "github": "https://github.com/venisha-11-kits"
+    }
+]
