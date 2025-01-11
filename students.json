@@ -1,4 +1,4 @@
-[
+ [
     {
         "name": "Reuben Reny",
         "bio": "u code i automate",
@@ -23,5 +23,10 @@
         "name": "Dhamodharan",
         "bio": "u code i automate",
         "github": "https://github.com/Dhamodharan-crlt"
+    }
+    {
+        "name": "Mohit Bijoria",
+        "bio": "beginner",
+        "github": "https://github.com/URK24CS1080"
     }
 ]
