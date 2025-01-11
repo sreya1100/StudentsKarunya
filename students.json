@@ -3,6 +3,11 @@
         "name": "Reuben Reny",
         "bio": "u code i automate",
         "github": "https://github.com/ReubenReny03"
+    } 
+    {
+        "name": "Sam Rae",
+        "bio": "insert talent;compile greatness",
+        "github": "https://github.com/sampenniel"
     },
     {
         "name": "Sandeep M K",
@@ -156,5 +161,6 @@
         "bio": "Karunya University",
         "github": "https://github.com/AMIRTAVASANTHA"
     }
+
 ]
 
