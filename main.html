@@ -47,7 +47,7 @@
 
     <script>
         // Fetch student data from external JSON file
-        fetch('students.json')
+        fetch('https://students-karunya.vercel.app/students.json')
             .then(response => response.json())
             .then(students => {
                 const studentsContainer = document.getElementById('students');
