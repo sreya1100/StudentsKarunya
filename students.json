@@ -1,8 +1,249 @@
+
 [
     {
-        "name": "Reuben Reny",
+        "name": "GokulKumar",
+        "bio": "batch-2 cse",
+        "github": "https://github.com/GokulKumar76"
+    },
+    {
+        "name": "Sam Rae",
+        "bio": "insert talent;compile greatness",
+        "github": "https://github.com/sampenniel"
+    },
+    {
+        "name": "Sandeep M K",
+        "bio": "B.tech CSE",
+        "github": "https://github.com/sandeepmk2006"
+    },
+    {
+        "name": "Jerbin",
+        "bio": "Happiness is not by chance But by choice",
+        "github": "https://github.com/Jerbin-jerbi"
+    },
+    {
+        "name": "Manendra Jha",
+        "bio": "not available",
+        "github": "https://github.com/URK24CS1053"
+    },
+    {
+        "name": "Dhamodharan",
         "bio": "u code i automate",
-        "github": "https://github.com/ReubenReny03"
+        "github": "https://github.com/Dhamodharan-crlt"
+    },
+    {
+        "name": "Mohit Bijoria",
+        "bio": "beginner",
+        "github": "https://github.com/URK24CS1080"
+    },
+    {
+        "name": "Goldy SS",
+        "bio": "Turning Ideas Into Coding",
+        "github": "https://github.com/Goldyss20"
+    },
+    {
+        "name": "Madhuvarshini A",
+        "bio": "May The Code Be With You",
+        "github": "https://github.com/madhuvarshiniurk24cs1244"
+    },
+    {
+        "name": "Ashik Paul",
+        "bio": "an expert",
+        "github": "https://github.com/Ashikpaul07"
+    },
+    {
+        "name": "Reshmanth",
+        "bio": "hello resh",
+        "github": "https://github.com/RESHMANTHGIT"
+    },
+    {
+        "name": "shanthini sahadevan",
+        "bio": "code create innovate",
+        "github": "https://github.com/shanthinisahadevanURK24CS1262"
+    },
+    {
+        "name": "Avani Mitra",
+        "bio": "Hi, how are you?",
+        "github": "https://github.com/avani-29-kits"
+    },
+    {
+        "name": "Sony Jose J",
+        "bio": "Hi, how are you all?",
+        "github": "https://github.com/sony-11-kits"
+    },
+    {
+        "name": "Venisha Edyth F",
+        "bio": "HI, how are you all?",
+        "github": "https://github.com/venisha-11-kits"
+    },
+    {
+        "name": "Hani Jeniffer",
+        "bio": "hello",
+        "github": "https://github.com/JENIFFER1767"
+    },
+    {
+        "name": "Abishek Susi Rajan A",
+        "bio": "KITs studenteee heee",
+        "github": "https://github.com/AbishekSusiRajan1"
+    },
+    {
+        "name": "Saro Franzika",
+        "bio": "Create, Code!",
+        "github": "https://github.com/franzika20"
+    },
+    {
+        "name": "R.Aaron Reilly",
+        "bio": "hello",
+        "github": "https://github.com/Aaronreilly"
+    },
+    {
+        "name": "ANLIA JUVINCE",
+        "bio": " check me on git ",
+        "github": "https://github.com/am-yx"
+    },
+    {
+        "name": "Niwisha.S.Winston",
+        "bio": "student",
+        "github": "https://github.com/Niwisha2210"
+    },
+    {
+        "name": "Kishore John URK24CS1064",
+        "bio": "Master Coder",
+        "github": "https://github.com/CaptainJohn2006"
+    },
+    {
+        "name": "anand",
+        "bio": "thala for reason",
+        "github": "https://github.com/anand2301"
+    },
+    {
+        "name": "Jashen Bright J",
+        "bio": "u code i copy ",
+        "github": "https://github.com/Jashen-Bright"
+    },
+    {
+        "name": "kanish kumar",
+        "bio": "batch-2 cse",
+        "github": "https://github.com/URK24CS1072"
+    },
+    {
+        "name": "Mohithsharan M",
+        "bio": "i code u automate",
+        "github": "https://github.com/mohithsharan-50"
+    },
+    {
+        "name": "Grishma Ann Thomas",
+        "bio": "i am a student",
+        "github": "https://github.com/URK24CS1081"
+    },
+    {
+        "name": "Sharon Makhroh Kharlyngdoh",
+        "bio": "limited edition",
+        "github": "https://github.com/Sharonkhy"
+    },
+    {
+        "name": "Jerusha Pearlin",
+        "bio": "github",
+        "github": "https://github.com/JERUSHAPEARLIN"
+    },
+    {
+        "name": "Jeffin john",
+        "bio": "CSE Student",
+        "github": "https://github.com/jeffinjohn7344"
+    },
+    {
+        "name": "Amirta Vasantha",
+        "bio": "Karunya University",
+        "github": "https://github.com/AMIRTAVASANTHA"
+    },
+    {
+        "name": "Dalina Dhinagar",
+        "bio": "Student of Karunyas",
+        "github": "https://github.com/Dalinadhinagar"
+    },
+    {
+        "name": "Sonika Srivastava",
+        "bio": "Think it, code it!",
+        "github": "https://github.com/Sonika-09010"
+    },
+    {
+        "name": "Noel Mathew Sajan",
+        "bio": "3",
+        "github": "https://github.com/NoelMS"
+    },
+    {
+        "name": "Josna John",
+        "bio": "Student of Karunya",
+        "github": "https://github.com/josna26"
+    },
+    {
+        "name": "Einstein",
+        "bio": "u cry i dance",
+        "github": "https://github.com/einsteinzo"
+    },
+    {
+        "name": "Sheegan",
+        "bio": "living in the moment",
+        "github": "https://github.com/sheegan123"
+    },
+    {
+        "name": "Naren",
+        "bio": "syntax eror in academic life",
+        "github": "https://github.com/NateshNaren"
+    },
+    {
+        "name": "john chrispin durai",
+        "bio": "just living",
+        "github": "https://github.com/Johnchrispindurai"
+    },
+    {
+        "name": "Jenifer",
+        "bio": "code and decode",
+        "github": "https://github.com/jenifer2408"
+    },
+    {
+        "name": "Inba Athithan",
+        "bio": " life",
+        "github": "https://github.com/INBAATHITHAN"
+    },
+    {
+        "name": "Christa Yakhel",
+        "bio": "git lab",
+        "github": "https://github.com/ChristaYakhel"
+    },
+    {
+        "name": "Ashwin Kumar",
+        "bio": "muduchuvitinga ponga",
+        "github": "https://github.com/ashwin6116"
+    },
+    {
+        "name": "Eliza D Robert",
+        "bio": "I am a student",
+        "github": "https://github.com/eliza-06"
+    },
+    {
+        "name": "Stefi Shobika",
+        "bio": "git",
+        "github": "hhttps://github.com/stefishobikasss"
+    },
+    {
+        "name": "Theepan S S",
+        "bio": "HELLO",
+        "github": "https://github.com/TheepanURK24CS1099"
+    },
+    {
+        "name": "Darwin John DS",
+        "bio": "btechcse",
+        "github": "https://github.com/DarwinJohn2006"
+    },
+    {
+        "name": "Chandra mouli",
+        "bio": "wake up to reality",
+        "github": "https://github.com/URK24CS1241"
+    },
+    {
+        "name": "Royston",
+        "bio": "B.Tech CSE",
+        "github": "https://github.com/Royston171006"
     }
 
  {
